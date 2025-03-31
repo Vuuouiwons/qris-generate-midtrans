@@ -1,7 +1,7 @@
 # Midtrans Payment Gateway Examples
+This repository was created demonstrate the use of midtrans payment gateway api with QRIS. The goal is to only use RESTful library to interact with the payment gateway instead of midtrans' opensource library
 
 ## Payment api with curl (base)
-
 ```
 curl -X POST \
   https://api.midtrans.com/v2/charge \
@@ -17,3 +17,11 @@ curl -X POST \
   }
 }'
 ```
+
+## Created payment gateway
+### [Python](./python)
+
+## Roadmap
+### [Php](.)
+### [JavaScript](.)
+### [Golang](.)
